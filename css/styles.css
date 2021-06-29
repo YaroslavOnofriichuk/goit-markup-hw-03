@@ -38,10 +38,11 @@ ul {
 }
 
 .container {
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: auto;
+    box-sizing: border-box;
 }
 
 .section {
@@ -51,11 +52,14 @@ ul {
 
 /*======= HEADER =======*/
 
-.header-container{
-    display: flex;
+.header {
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom:  1px solid #ECECEC;
+}
+
+.header-container{
+    display: flex;  
 }
 
 /* Site navigation */
@@ -140,6 +144,7 @@ ul {
 
 .hero {
     background: #2F303A;
+    padding-top: 200px;
 }
 
 .hero-container {
@@ -159,7 +164,6 @@ ul {
     color: #FFFFFF;
     margin:auto;
     width: 696px;
-    padding-top: 200px;
     margin-bottom: 30px;
 }
 
@@ -216,7 +220,6 @@ ul {
     line-height: 1.17;
     text-align: center;
     color: var(--primary-text-color);
-    width: 376px;
     margin:auto;
     margin-bottom: 50px;
 }
@@ -235,7 +238,6 @@ ul {
     line-height: 1.17;
     text-align: center;
     color: var(--primary-text-color);
-    width: 264px;
     margin:auto;
     margin-bottom: 50px;
 }
@@ -277,11 +279,11 @@ ul {
 
 .footer {
     background: #2F303A;
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 
 .footer-container {
-    padding-bottom: 60px;
-    padding-top: 60px;
     width: 1170px;
     margin: auto;
     display: flex;
@@ -369,15 +371,19 @@ ul {
     color: #FFFFFF;
 }
 
+.portfolio-container {
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+
+}
+
 .portfolio-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
-    margin-top: 20px;
-    margin-right: auto;
     margin-bottom: 4px;
-    margin-left: 24px;
 }
 
 .portfolio-text {
@@ -385,8 +391,6 @@ ul {
     font-size: 16px;
     line-height: 1.88;
     color: var(--secondary-text-color);
-    margin-left: 24px;
-    padding-bottom: 20px;
 }
 
 .portfolio-list {
@@ -400,11 +404,11 @@ ul {
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
 }
 
 .portfolio-link {
     text-decoration: none;
-    /*display: flex;
-    flex-direction: column;*/
 }
 
