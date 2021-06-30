@@ -145,6 +145,7 @@ ul {
 .hero {
     background: #2F303A;
     padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-container {
@@ -180,15 +181,13 @@ ul {
     border: none;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 200px;
-    
+    justify-content: center;    
 }
 
 /*============= advantage ===============*/
 
-.advantage-container {
-
+.advantage {
+    padding-top: 94px;
 }
 
 .advantage-item {
@@ -317,15 +316,17 @@ ul {
     flex-direction: column;
 }
 
+
 .footer-contacts {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    display: flex;
 }
 
-.footer-contacts:not(:last-child) {
+.footer-mail {
     margin-bottom: 9px;
 }
 
